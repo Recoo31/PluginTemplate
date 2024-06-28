@@ -1,0 +1,6 @@
+{
+    "package": "kurd.reco.example",
+    "package_name": "ExampleApi",
+    "plugin_id": "exampleapi",
+    "plugin_name": "Example"
+}
