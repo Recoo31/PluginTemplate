@@ -39,9 +39,10 @@ android {
 
     tasks.register("generateJson") {
         doFirst {
+            // Change these
             val packageName = project.android.namespace
-            val className = "ExampleApi"
-            val pluginName = "Example"
+            val className = "BluApi"
+            val pluginName = "BluTv"
             val pluginId = className.lowercase()
 
             val jsonObject = """
